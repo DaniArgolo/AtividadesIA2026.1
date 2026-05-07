@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ROB_Skybox_ProceduralDayNight
+  m_Shader: {fileID: 4800000, guid: 4054e6bbe66574f4e8a80110161320e0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _CloudCoverage: 0.52
+    - _CloudHeightFadeEnd: 0.65
+    - _CloudHeightFadeStart: -0.05
+    - _CloudRim: 1.1
+    - _CloudScale: 2.8
+    - _CloudSoftness: 0.18
+    - _CloudSpeed: 0.008
+    - _CloudSunInfluence: 1.2
+    - _HorizonSoftness: 0.55
+    - _MoonSharpness: 70
+    - _MoonSize: 0.02
+    - _StarIntensity: 1
+    - _StarScale: 220
+    - _StarThreshold: 0.985
+    - _SunSharpness: 80
+    - _SunSize: 0.012
+    - _TimeOfDay: 0.35
+    m_Colors:
+    - _CloudDarkDay: {r: 0.78, g: 0.8399999, b: 0.9, a: 1}
+    - _CloudDarkNight: {r: 0.049999982, g: 0.06999998, b: 0.10999996, a: 1}
+    - _CloudDarkSunset: {r: 0.62, g: 0.37999994, b: 0.33999997, a: 1}
+    - _CloudLightDay: {r: 1, g: 1, b: 1, a: 1}
+    - _CloudLightNight: {r: 0.13999996, g: 0.17999998, b: 0.24999997, a: 1}
+    - _CloudLightSunset: {r: 1, g: 0.72, b: 0.56, a: 1}
+    - _GroundDay: {r: 0.34999996, g: 0.37999994, b: 0.39999998, a: 1}
+    - _GroundNight: {r: 0.01, g: 0.015, b: 0.03, a: 1}
+    - _HorizonDay: {r: 0.7, g: 0.85, b: 1, a: 1}
+    - _HorizonNight: {r: 0.059999965, g: 0.089999996, b: 0.15999997, a: 1}
+    - _HorizonSunset: {r: 1, g: 0.47999996, b: 0.17999998, a: 1}
+    - _MoonColor: {r: 0.78, g: 0.8399999, b: 1, a: 1}
+    - _MoonDir: {r: 0, g: -1, b: 0, a: 0}
+    - _SunColor: {r: 1, g: 0.88, b: 0.68, a: 1}
+    - _SunDir: {r: 0, g: 1, b: 0, a: 0}
+    - _ZenithDay: {r: 0.21999997, g: 0.54999995, b: 0.95, a: 1}
+    - _ZenithNight: {r: 0.015, g: 0.025, b: 0.06999998, a: 1}
+    - _ZenithSunset: {r: 0.15999997, g: 0.19999996, b: 0.41999996, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
